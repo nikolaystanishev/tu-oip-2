@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_x3d_preview_x3d32407831554878462.jpg'/>
+ <meta name='ExportTime' content='9:41: 2'/>
+ <meta name='ExportDate' content='4/10/2019'/>
+ <meta name='VivatyStudioVersion' content='738'/>
+ <meta name='VivatyStudioSource' content='x3d.fxw'/>
+</head>
+<Scene>
+<WorldInfo
+ title='x3d'
+ info='"This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Shape DEF='Cylinder1'>
+ <Appearance
+  containerField='appearance'>
+  <Material DEF='Red'
+   containerField='material'
+   ambientIntensity='.2'
+   shininess='.2'
+   diffuseColor='1 0 0'/>
+ </Appearance>
+ <Cylinder DEF='GeoCylinder1'
+  containerField='geometry'
+  height='2'
+  radius='10'/>
+</Shape>
+<Transform DEF='dad_Cylinder4'
+ translation='0 3 0'>
+ <Shape DEF='Cylinder4'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material
+    containerField='material'
+    USE='Red'/>
+  </Appearance>
+  <Cylinder DEF='GeoCylinder4'
+   containerField='geometry'
+   height='4'
+   radius='5'/>
+ </Shape>
+</Transform>
+<Transform DEF='dad_Cylinder5'
+ translation='0 15 0'>
+ <Shape DEF='Cylinder5'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material
+    containerField='material'
+    USE='Red'/>
+  </Appearance>
+  <Cylinder DEF='GeoCylinder5'
+   containerField='geometry'
+   height='20'
+   radius='2'/>
+ </Shape>
+</Transform>
+<Viewpoint DEF='Generated_Viewpoint'
+ description='Generated_Viewpoint'
+ jump='true'
+ fieldOfView='.7854'
+ position='0 0 56.5647'
+ orientation='0 0 1 0'/>
+<Transform DEF='dad_Group3'
+ translation='6.89071 26.0234 8.3958'>
+ <Transform DEF='dad_Cylinder6'
+  containerField='children'
+  translation='15.10929 -6.0234 -8.3958'>
+  <Shape DEF='Cylinder6'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Cylinder DEF='GeoCylinder6'
+    containerField='geometry'
+    height='4'
+    radius='3'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Cylinder8'
+  containerField='children'
+  translation='-6.89071 -6.0234 -8.3958'>
+  <Shape DEF='Cylinder8'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Cylinder DEF='GeoCylinder8'
+    containerField='geometry'
+    height='4'
+    radius='5'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Cylinder7'
+  containerField='children'
+  translation='5.57649 -5.9803 -8.55709'
+  rotation='0 -0 -1 1.569'
+  scale='1 1 1'>
+  <Shape DEF='Cylinder7'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Cylinder DEF='GeoCylinder7'
+    containerField='geometry'
+    height='15'
+    radius='1'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Cylinder2'
+  containerField='children'
+  translation='15.10929 -11.0234 -8.3958'>
+  <Shape DEF='Cylinder2'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Cylinder DEF='GeoCylinder2'
+    containerField='geometry'
+    height='20'
+    radius='1'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Box9'
+  containerField='children'
+  translation='15.10929 -21.0234 -8.3958'
+  rotation='0 1 0 1.571'>
+  <Shape DEF='Box9'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Box DEF='GeoBox9'
+    containerField='geometry'
+    size='9 1 7'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Box10'
+  containerField='children'
+  translation='15.10929 -23.0234 -11.3958'
+  rotation='-.577 .577 -.577 2.094'>
+  <Shape DEF='Box10'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Box DEF='GeoBox10'
+    containerField='geometry'
+    size='4 1 7'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Box11'
+  containerField='children'
+  translation='15.10929 -23.0234 -5.3958'
+  rotation='-.577 .577 -.577 2.094'>
+  <Shape DEF='Box11'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Box DEF='GeoBox11'
+    containerField='geometry'
+    size='4 1 7'/>
+  </Shape>
+ </Transform>
+ <Transform DEF='dad_Box8'
+  containerField='children'
+  translation='15.10929 -26.0234 -8.3958'>
+  <Shape DEF='Box8'
+   containerField='children'>
+   <Appearance
+    containerField='appearance'>
+    <Material
+     containerField='material'
+     USE='Red'/>
+   </Appearance>
+   <Box DEF='GeoBox8'
+    containerField='geometry'
+    size='5 5 5'/>
+  </Shape>
+ </Transform>
+</Transform>
+<TimeSensor DEF='TimeSensor5'
+ cycleInterval='10'
+ loop='true'
+ startTime='-1'/>
+<PositionInterpolator DEF='TimeSensor5_pos0'
+ key='
+  0 .75 1'
+ keyValue='
+  6.89071 26.0234 8.3958 6.89071 26.0234 8.3958 -8.4 26.0234 7'/>
+<OrientationInterpolator DEF='TimeSensor5_rot0'
+ key='
+  0 .75 1'
+ keyValue='
+  0 -1 0 0 0 -1 0 0 0 -1 0 1.571'/>
+<TimeSensor DEF='vizx_init'
+ cycleInterval='.1'
+ loop='true'/>
+<ROUTE fromNode='vizx_init' fromField='cycleTime' toNode='TimeSensor5' toField='startTime'/>
+<ROUTE fromNode='vizx_init' fromField='cycleTime' toNode='vizx_init' toField='stopTime'/>
+<ROUTE fromNode='TimeSensor5' fromField='fraction_changed' toNode='TimeSensor5_pos0' toField='set_fraction'/>
+<ROUTE fromNode='TimeSensor5_pos0' fromField='value_changed' toNode='dad_Group3' toField='set_translation'/>
+<ROUTE fromNode='TimeSensor5' fromField='fraction_changed' toNode='TimeSensor5_rot0' toField='set_fraction'/>
+<ROUTE fromNode='TimeSensor5_rot0' fromField='value_changed' toNode='dad_Group3' toField='set_rotation'/>
+</Scene>
+</X3D>
